@@ -38,8 +38,8 @@ const pcArr = ["tas", "kagit", "makas"]; //pc nin seçenekleri
 
 //Bu fonksiyon pc nin seçiminin ekranda belirmesini sağlar.
 function pc() {
-  // pcRandom = pcArr[Math.floor(Math.random() * 3)];
-  pcRandom = "tas";
+  pcRandom = pcArr[Math.floor(Math.random() * 3)];
+  // pcRandom = 'tas'
 
   // console.log(pcRandom)
   pcChoice.innerHTML = `<img src="./img/${pcRandom}.png"></img>`;
